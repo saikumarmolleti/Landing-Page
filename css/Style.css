@@ -1,0 +1,189 @@
+/* **************************************************************** */
+/* body styles */
+/* **************************************************************** */
+body {
+  margin: 0%;
+}
+span {
+  color: #4acace;
+}
+/* ---------------------------------------------------------------------------------------------- */
+
+/* **************************************************************** */
+/* header style */
+/* **************************************************************** */
+#nav-size {
+  padding: 0px 0px 0px 0px;
+}
+
+#custom-nav-bg {
+  background-color: #4acace;
+  font-size: 1.5rem;
+  padding: 0% 5% 0% 5%;
+}
+
+/* hearder webpage addres style */
+#E-debris {
+  color: aliceblue;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+#debris {
+  color: black;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#E-debris-ad {
+  color: black;
+  font-size: 1rem;
+}
+
+/* navbar items style */
+#navliststyle {
+  color: black;
+}
+/* ---------------------------------------------------------------------------------------------- */
+
+/* **************************************************************** */
+/* Home */
+/* **************************************************************** */
+#home {
+  padding: 8rem 8rem 0rem 8rem;
+}
+
+#welcome-head {
+  font-family: 'Kanit', sans-serif;
+  font-size: 7rem;
+  animation: headani 4s ease 0s 1 normal forwards;
+}
+@keyframes headani {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#welcome-img {
+  padding: 12rem 0rem 2rem 5rem;
+  width: 25rem;
+}
+
+#downarrow {
+  padding-bottom: 2%;
+  text-align: center;
+}
+#downarrow-logo {
+  width: 7%;
+  animation: down-arrow 3s linear 0s infinite normal forwards;
+}
+@keyframes down-arrow {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+/* ---------------------------------------------------------------------------------------------- */
+
+/* **************************************************************** */
+/* About Us */
+/* **************************************************************** */
+#aboutus {
+  background-color: #4acace;
+  padding: 8rem 2rem;
+}
+
+#aboutus-img {
+  border-radius: 3%;
+  width: 30rem;
+  margin-left: 10%;
+}
+#about-text {
+  padding: 3rem 5rem 0rem 0rem;
+}
+.about-head {
+  font-family: 'Kanit', sans-serif;
+  font-family: 'PT Serif', serif;
+  text-align: justify;
+}
+
+#about-font-size {
+  font-family: 'Kanit', sans-serif;
+  line-height: 1.5;
+}
+/* ---------------------------------------------------------------------------------------------- */
+
+/* **************************************************************** */
+/* Know More */
+/* **************************************************************** */
+#knowmore {
+  padding: 5rem 3rem 8rem 3rem;
+  margin-top: 0.5%;
+}
+.service-head {
+  font-family: 'Kanit', sans-serif;
+  font-family: 'PT Serif', serif;
+  margin-left: 1.8%;
+}
+.horizontally-scroll {
+  padding: 5% 0% 4% 0%;
+  border: rgb(255, 255, 255);
+  overflow-x: scroll;
+}
+.horizontally-scroll::-webkit-scrollbar {
+  height: 15px;
+}
+.horizontally-scroll::-webkit-scrollbar-thumb {
+  background: #4acace;
+  border-radius: 10px;
+}
+.horizontally-scroll::-webkit-scrollbar-thumb:hover {
+  background: #4acace;
+}
+#card-style {
+  padding: 5rem;
+  margin: 2rem;
+  width: 40%;
+  height: 30%;
+}
+#card-style:hover {
+  background-color: black;
+  color: aliceblue;
+  transition-delay: 0.3s;
+}
+/* ---------------------------------------------------------------------------------------------- */
+
+/* **************************************************************** */
+/* Contact Us */
+/* **************************************************************** */
+#contactus {
+  padding: 10rem 10rem;
+  background-color: #4acace;
+}
+#contactushead {
+  font-family: 'Kanit', sans-serif;
+  font-family: 'PT Serif', serif;
+  text-align: center;
+}
+/* ---------------------------------------------------------------------------------------------- */
+
+/* **************************************************************** */
+/* Footer */
+/* **************************************************************** */
+footer {
+  text-align: center;
+}
+#id-tag {
+  text-decoration: none;
+}
+/* ---------------------------------------------------------------------------------------------- */
